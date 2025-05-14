@@ -1,0 +1,23 @@
+- page: index.md
+  label: Introduction
+- group: API Methods
+  items:
+    - page: /apis/getToken.md
+- group: Supported CAPTCHA Types
+  items:
+    - page: /captcha-types/recaptcha-v3.md
+      label: reCAPTCHA V3
+    - page: /captcha-types/recaptcha-v2.md
+      label: reCAPTCHA V2
+    - page: /captcha-types/recaptcha-v3-enterprise.md
+      label: reCAPTCHA V3 Enterprise
+    - page: /captcha-types/recaptcha-v2-enterprise.md
+      label: reCAPTCHA V2 Enterprise
+    - page: /captcha-types/recaptcha-mobile.md
+      label: reCAPTCHA Mobile
+    - page: /captcha-types/aws-waf.md
+      label: AWS WAF
+    - page: /captcha-types/mtcaptcha.md
+      label: MTCaptcha
+    - page: /captcha-types/cloudflare-turnstile.md
+      label: Cloudflare Turnstile

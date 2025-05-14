@@ -1,0 +1,66 @@
+:root {
+    --md-content-max-width: 768px;
+    --navbar-height: 0px;
+
+    --font-size-base: 16px;
+    --font-size-sm: 12px;
+    --font-size-lg: 16px;
+    --fond-size-xl: 20px;
+    --code-font-size: 16px;
+}
+
+/* Style the header */
+.collapsible-section-header {
+  cursor: pointer;
+  position: relative; /* If positioning arrow absolutely */
+  padding: 0.5em 0; /* Adjust padding */
+  margin-bottom: 0; /* Remove default h3 margin if content follows directly */
+  /* Add any other h3 styling you need */
+  outline: none; /* Style focus state appropriately */
+}
+
+/* Style the focus state for keyboard navigation */
+.collapsible-section-header:focus-visible {
+  box-shadow: 0 0 0 2px Highlight; /* Or your preferred focus style */
+  box-shadow: 0 0 0 2px -webkit-focus-ring-color; /* Webkit fallback */
+}
+
+
+/* Style the explicit arrow */
+.collapsible-section-header .disclosure-arrow {
+  display: inline-block;
+  font-size: 0.8em;
+  margin-left: 0.5em; /* Space it from text */
+  transition: transform 0.2s ease-in-out;
+  color: #555;
+}
+
+/* Content is hidden by default using the 'hidden' attribute */
+/* You could also use a class toggled by JS */
+/*
+.collapsible-section-content {
+  display: none;
+}
+.collapsible-container.is-expanded .collapsible-section-content {
+  display: block;
+}
+*/
+
+/* Style content when visible (remove 'hidden' attr via JS) */
+.collapsible-section-content {
+  padding: 1em;
+  border: 1px solid #e0e0e0; /* Example border */
+  border-top: none; /* Example: Avoid double border if header has one */
+  margin-top: 0.5em; /* Add some space */
+}
+
+/* Rotate arrow when expanded (requires JS to add 'is-expanded' class to container/header) */
+.collapsible-container.is-expanded .disclosure-arrow {
+  transform: rotate(90deg);
+}
+/* Or target aria-expanded attribute directly */
+/*
+.collapsible-section-header[aria-expanded="true"] .disclosure-arrow {
+  transform: rotate(90deg);
+}
+*/

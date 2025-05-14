@@ -1,0 +1,33 @@
+navbar:
+  hide: true
+
+feedback:
+  hide: true
+
+breadcrumbs:
+  hide: true
+
+navigation:
+  nextButton:
+    hide: true
+  previousButton:
+    hide: true
+
+footer:
+  hide: true
+
+markdown:
+  lastUpdatedBlock:
+    hide: true
+
+codeSnippet:
+  report:
+    hide: true
+  expand:
+    hide: true
+  collapse:
+    hide: true
+
+# colorMode:
+#   ignoreDetection: true
+#   modes: [light', 'dark']
