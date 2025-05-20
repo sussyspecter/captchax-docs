@@ -1,8 +1,6 @@
 - page: index.md
   label: Introduction
-- group: API Methods
-  items:
-    - page: /apis/getToken.md
+- page: getToken.md
 - group: Supported CAPTCHA Types
   items:
     - page: /captcha-types/recaptcha-v3.md

@@ -1,13 +1,13 @@
 
 # {% $display_name %}
 
-Learn how to solve **{% $display_name %}** with the CaptchaX [getToken](/apis/gettoken) API.
+Learn how to solve **{% $display_name %}** with the CaptchaX [getToken](/gettoken) API.
 
 A successful request will yield a token, pass it to a form field or callback function on the target website to bypass the CAPTCHA.
 
 ## API Endpoint
 
-Make a **POST** request to the [getToken](/apis/gettoken) API.
+Make a **POST** request to the [getToken](/gettoken) API.
 
 ```http {% title="HTTP Request" %}
 POST https://api.captchax.ai/getToken HTTP/1.1

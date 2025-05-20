@@ -20,7 +20,7 @@ Once you have registered, head over to the [Dashboard](#). From here you can obt
 
 ### Step 3: Make The Request
 
-Now everything is ready, just call the [getToken](#) API and wait for the result. Here is an example request.
+Now everything is ready, just call the [getToken](/gettoken) API and wait for the result. Here is an example request.
 
 ```http {% title="HTTP Request" %}
 POST https://api.captchax.ai/getToken HTTP/1.1
